@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<database>
+  <phone model="Galaxus" producer="SZ" system="Andro" serial_number="77777774">
+    <component component="asdad"></component>
+    <component component="Procesor"></component>
+    <component component="Płyta głowna"></component>
+    <component component="Karta graficzna"></component>
+    <component component="monitor"></component>
+    <component component="sad"></component>
+  </phone>
+  <phone model="Galaxus" producer="SZ" system="Andro" serial_number="213">
+    <component component="Procesor"></component>
+    <component component="Płyta głowna"></component>
+    <component component="Karta graficzna"></component>
+    <component component="monitor"></component>
+  </phone>
+  <phone model="Galaxsus13" producer="SZ" system="Andro" serial_number="13"></phone>
+  <phone model="Galaxy" producer="1231" system="Androis" serial_number="15213"></phone>
+  <phone model="Galaxsus19" producer="SZ" system="Andro" serial_number="19"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21244"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="338"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="116"></phone>
+  <phone model="Galaxy" producer="Samsung" system="Android" serial_number="312"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2126"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="8309"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="333"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="32"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="339"></phone>
+  <phone model="Galaxsus" producer="SZ" system="Andro" serial_number="21"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21249"></phone>
+  <phone model="Galaxsus14" producer="SZ" system="Andro" serial_number="14"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="8453409"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2128"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21247"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2129"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="341"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="117"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="88888"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="8375673"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21246"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="21341"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21243"></phone>
+  <phone model="Galaxy" producer="a" system="a" serial_number="1234441"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="64876"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="76576"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="6351"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21250"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="340"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21245"></phone>
+  <phone model="Galaxy" producer="kot" system="Androis" serial_number="1223"></phone>
+  <phone model="Galaxsus17" producer="SZ" system="Andro" serial_number="17"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="0"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="332"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="413"></phone>
+  <phone model="Galaxy" producer="Samsung" system="LOL" serial_number="13141241"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="337"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="115"></phone>
+  <phone model="Galaxy" producer="sadsa" system="testdaw" serial_number="4943698"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="987989"></phone>
+  <phone model="Galaxsus11" producer="SZ" system="Andro" serial_number="11"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="684894"></phone>
+  <phone model="Galaxy" producer="lolin" system="as" serial_number="64"></phone>
+  <phone model="Galaxy" producer="sdadsa" system="dasdassda" serial_number="1234141"></phone>
+  <phone model="Galaxy" producer="test" system="test1" serial_number="5489"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21242"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="111"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="948522"></phone>
+  <phone model="Galaxsus" producer="SZ" system="Andro" serial_number="12312"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="336"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="118"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21248"></phone>
+  <phone model="Galaxsus15" producer="SZ" system="Andro" serial_number="15"></phone>
+  <phone model="Galaxsus12" producer="SZ" system="Andro" serial_number="12"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="987"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2124"></phone>
+  <phone model="Galaxy" producer="Samsung" system="Android" serial_number="213312"></phone>
+  <phone model="Galaxy" producer="sadsa" system="wdada" serial_number="999"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="334"></phone>
+  <phone model="Galaxy" producer="kdawda" system="Androis" serial_number="1334"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="421333"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="114"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2131"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2123"></phone>
+  <phone model="sdadadasdadsas" producer="das" system="dsa" serial_number="21313112"></phone>
+  <phone model="Galaxy" producer="2" system="Androis" serial_number="12113"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="41233"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="110"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2122"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2130"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="112"></phone>
+  <phone model="Galaxsus16" producer="SZ" system="Andro" serial_number="16"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2127"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="21241"></phone>
+  <phone model="test" producer="test2" system="test3" serial_number="1"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="2125"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="335"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="113"></phone>
+  <phone model="Galaxy" producer="SZ" system="Andro" serial_number="119"></phone>
+</database>

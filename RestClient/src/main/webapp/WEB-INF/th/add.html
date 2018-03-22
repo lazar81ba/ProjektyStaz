@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="#" th:action="@{add}" th:object="${proxy}" method="post">
+  <br/><input type="text" th:field="*{model}" th:placeholder="Model"/>
+  		<label th:if="${#fields.hasErrors('model')}" th:errors="*{model}"></label>
+  <br/><input type="text" th:field="*{producer}" th:placeholder="Producer" />
+  		<label th:if="${#fields.hasErrors('producer')}" th:errors="*{producer}"></label>
+  <br/><input type="text" th:field="*{system}" th:placeholder="System"/>
+  		<label th:if="${#fields.hasErrors('system')}" th:errors="*{system}"></label>
+  <br/><input type="number" th:field="*{serial_number}" />
+  <br/><input type="submit" />
+</form>
+	<br/>
+	<a th:href="@{/}">Return Home</a>
+
+</body>
+</html>

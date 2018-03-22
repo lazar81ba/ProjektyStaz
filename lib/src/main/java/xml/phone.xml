@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+<phone model="Galaxy S3" producer="Samsung" system="Android" serial_number="12412412">
+	<component component="Procesor A3"/>
+	<component component="graphics"/>
+	<component component="battery"/>
+</phone>
+
+<phone model="Galaxy S5" producer="Samsung" system="Android" serial_number="15214123">
+	<component component="Procesor A5"/>
+	<component component="better graphics"/>
+	<component component="better battery"/>
+</phone>
+
+<phone model="iPhone" producer="Apple" system="iOS" serial_number="24141145">
+	<component component="Procesor I51"/>
+	<component component="amazing graphics"/>
+	<component component="not so amazing battery"/>
+</phone>
+
+<phone model="3200" producer="Nokia" system="Symbian" serial_number="888888888">
+	<component component="procesor 80 mhz"/>
+	<component component="2d graphics"/>
+	<component component="uber amazing battery"/>
+</phone>
+</database>

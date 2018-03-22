@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="#" th:action="@{/update}" method="get">
+	 	<input type="number" th:name="id" th:placeholder="Id" />
+	    <input type="submit" />
+	</form>
+
+<div th:if = "${phone != null}">
+	<ul >
+		 <li>
+			 <span th:text="${phone.getModel()}">Model</span>
+			 <span th:text="${phone.getProducer()}">Producer</span> 
+			 <span th:text="${phone.getSystem()}">System</span>
+			 <span th:text="${phone.getSerial_number()}">Serial</span>
+		 </li>
+	 </ul>
+	 
+	 <form action="#" th:action="@{/update}" th:object="${proxy}" method="post">
+	 	  <input type="number" th:value="${phone.getId()}" th:name="id" th:id="id"/>
+		  <input type="text" th:field="*{model}" />
+		  <input type="text" th:field="*{producer}" />
+		  <input type="text" th:field="*{system}" />
+		  <input type="number" th:field="*{serial_number}" />
+		  <input type="submit" />
+  	 </form>
+</div>
+ 
+	 <a th:href="@{/}">Return Home</a>
+
+</body>
+</html>

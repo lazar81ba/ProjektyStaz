@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="#" th:action="@{/getByModel}" method="get">
+	 	<input type="text" th:name="model" th:placeholder="Model" />
+	    <input type="submit" />
+	</form>
+
+	<ul th:each="phone : ${list}">
+		 <li>
+			 <span th:text="${phone.getModel()}">Model</span>
+			 <span th:text="${phone.getProducer()}">Producer</span> :
+			 <span th:text="${phone.getSystem()}">System</span>,
+			 <span th:text="${phone.getSerial_number()}">Serial</span>
+		 </li>
+	 </ul>
+ 
+	 <a th:href="@{/}">Return Home</a>
+ 
+</body>
+</html>

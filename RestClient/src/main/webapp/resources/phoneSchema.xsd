@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:attribute name="model">
+		<xs:simpleType>
+	        <xs:restriction base="xs:string">
+	      		<xs:maxLength value="15"/>
+	        </xs:restriction>
+	    </xs:simpleType>
+	</xs:attribute>
+	
+	<xs:attribute name="producer">
+		<xs:simpleType>
+	        <xs:restriction base="xs:string">
+	      		<xs:maxLength value="15"/>
+	        </xs:restriction>
+	    </xs:simpleType>
+	</xs:attribute>
+	
+	<xs:attribute name="system">
+		<xs:simpleType>
+	        <xs:restriction base="xs:string">
+	      		<xs:maxLength value="15"/>
+	        </xs:restriction>
+	    </xs:simpleType>
+	</xs:attribute>
+	
+	<xs:attribute name="serial_number" type="xs:int" />	
+	<xs:attribute name="component"/>
+	<xs:attribute name="id" type="xs:int" />
+	<xs:attribute name="id_device" type="xs:int" />
+
+	<xs:element name="phone">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="component" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute ref="id" />
+			<xs:attribute ref="model" />
+			<xs:attribute ref="producer" />
+			<xs:attribute ref="system" />
+			<xs:attribute ref="serial_number" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="component">
+		<xs:complexType>
+			<xs:attribute ref="id" />
+			<xs:attribute ref="id_device" />
+			<xs:attribute ref="component" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="database">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="phone" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:unique name="serialUnique">
+	        <xs:selector xpath="phone" />
+	        <xs:field xpath="@serial_number" />
+	    </xs:unique>
+	</xs:element>
+
+</xs:schema>

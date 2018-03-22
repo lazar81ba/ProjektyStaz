@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="#" th:action="@{/delete}" method="get">
+	 	<input type="number" th:name="id" th:placeholder="Id" />
+	    <input type="submit" />
+	</form>
+
+<div th:if = "${phone != null}">
+	<ul >
+		 <li>
+			 <span th:text="${phone.getModel()}">Model</span>
+			 <span th:text="${phone.getProducer()}">Producer</span> :
+			 <span th:text="${phone.getSystem()}">System</span>,
+			 <span th:text="${phone.getSerial_number()}">Serial</span>
+		 </li>
+	 </ul>
+	 
+	 <form action="#" th:action="@{/delete}" th:object="${proxy}" method="post">
+	 	  <input type="hidden" th:value="${phone.getId()}" th:name="id" th:id="id"/>
+		  <input type="hidden" th:value="${phone.getModel()}" th:name="model" th:id="model" />
+		  <input type="hidden" th:value="${phone.getProducer()}" th:name="producer" th:id="producer" />
+		  <input type="hidden" th:value="${phone.getSystem()}" th:name="system" th:id="system" />
+		  <input type="hidden" th:value="${phone.getSerial_number()}" th:name="serial_number" th:id="serial_number" />
+		  <input type="submit" value="Usuń"/>
+  	 </form>
+</div>
+ 
+	 <a th:href="@{/}">Return Home</a>
+
+</body>
+</html>
